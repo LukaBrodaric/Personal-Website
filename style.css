@@ -2,6 +2,7 @@
 
 body {
   font-family: "Raleway", sans-serif !important;
+  background-color: #f4f4f9;
 }
 
 ul {
@@ -13,7 +14,7 @@ a {
 }
 
 h1 {
-  color: #ff6363;
+  color: #a2d6f9;
   font-weight: bold;
 }
 
@@ -63,6 +64,7 @@ p {
   z-index: 500;
   position: fixed;
   background-color: #000;
+
   opacity: 1;
   right: -285px; /* start off behind the scenes */
   -webkit-font-smoothing: antialiased;
@@ -89,7 +91,7 @@ p {
 
 .fa-bars {
   display: none !important;
-  color: #ff6363;
+  color: #a2d6f9;
   float: right;
   padding: 20px;
   position: fixed;
@@ -99,7 +101,7 @@ p {
 }
 
 .fa-times {
-  color: #ff6363;
+  color: #a2d6f9;
   float: right;
   padding: 20px;
   right: 0;
@@ -111,10 +113,11 @@ p {
   position: fixed;
   width: 100%;
   z-index: 500;
+  background-color: #f4f4f9;
 }
 
 .header-links li {
-  color: white;
+  color: #f4f4f9;
   display: inline;
   float: right;
   padding: 15px;
@@ -127,7 +130,7 @@ p {
 }
 
 .header-links a:hover {
-  color: #ff6363 !important;
+  color: #a2d6f9 !important;
 }
 
 /* slide out nav menu styles */
@@ -150,7 +153,7 @@ p {
 }
 
 .nav-links a {
-  color: #ffffff;
+  color: #f4f4f9;
   font-size: 30px;
   line-height: 2.5;
   font-weight: bold;
@@ -160,7 +163,7 @@ p {
 }
 
 .nav-links a:hover {
-  color: #ff6363;
+  color: #a2d6f9;
   -webkit-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   -ms-transition: all 0.6s ease-in-out;
@@ -180,7 +183,7 @@ p {
   margin-top: 5px;
   width: 0;
   height: 2px;
-  background-color: #fff;
+  background-color: #f4f4f9;
   content: "";
   opacity: 0;
   -webkit-transition: width 0.6s, opacity 0.8s;
@@ -209,7 +212,7 @@ p {
 }
 
 .aboutme p {
-  color: white;
+  color: #f4f4f9;
   font-weight: 100;
   font-size: 17.4px;
 }
@@ -217,7 +220,7 @@ p {
 /* bouncing arrow */
 
 .fa-chevron-down {
-  color: #ff6363 !important;
+  color: #a2d6f9 !important;
   bottom: 10px;
   margin-left: -30px;
   cursor: pointer;
@@ -304,7 +307,7 @@ p {
   display: block;
   margin-bottom: 15px;
   width: 100%;
-  background: #efefef;
+  background: #f4f4f9;
   height: 30px;
   border-radius: 3px;
   -moz-border-radius: 3px;
@@ -328,7 +331,7 @@ p {
   width: 110px;
   font-weight: bold;
   font-size: 13px;
-  color: #fff;
+  color: #f4f4f9;
   background: #6adcfa;
   -webkit-border-top-left-radius: 3px;
   -webkit-border-bottom-left-radius: 4px;
@@ -367,7 +370,7 @@ p {
   font-size: 11px;
   height: 30px;
   line-height: 30px;
-  color: #ffffff;
+  color: #f4f4f9;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -390,12 +393,12 @@ p {
 }
 
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #ff6363 !important;
+  border-color: transparent transparent transparent #a2d6f9 !important;
   right: 45px !important;
 }
 
 .fp-controlArrow.fp-prev {
-  border-color: transparent #ff6363 transparent transparent !important;
+  border-color: transparent #a2d6f9 transparent transparent !important;
   left: 45px !important;
 }
 
@@ -482,19 +485,19 @@ label {
   padding: 12px;
   min-width: 200px;
   border-radius: 2px;
-  border: 2px solid #ff6363;
+  border: 2px solid #a2d6f9;
   text-align: center;
   font-size: 1em;
-  color: #ff6363;
-  background-color: white;
+  color: #a2d6f9;
+  background-color: #f4f4f9;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #submit:hover {
-  background-color: #ff6363;
-  color: white;
+  background-color: #a2d6f9;
+  color: #f4f4f9;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -511,18 +514,18 @@ label {
 }
 
 .footer p {
-  color: white;
+  color: #f4f4f9;
   font-weight: bold;
   font-size: 16px;
 }
 
 .social-links a {
-  color: white;
+  color: #f4f4f9;
   padding: 0px 5px 0px 5px;
 }
 
 .social-links a:hover {
-  color: #ff6363;
+  color: #a2d6f9;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -568,7 +571,7 @@ label {
 }
 
 .spinner > div {
-  background-color: #ff6363;
+  background-color: #a2d6f9;
   height: 100%;
   width: 6px;
   display: inline-block;
@@ -625,7 +628,7 @@ label {
   font-weight: 500;
   margin-left: 4px;
   font-size: 20px;
-  color: white !important;
+  color: #f4f4f9 !important;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
   -ms-animation: 1s blink step-end infinite;
@@ -699,7 +702,7 @@ label {
   padding: 1em;
   margin-bottom: 0.75rem;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  color: #b94a48;
+  color: #a2d6f9;
   background-color: #f2dede;
   border: 1px solid rgba(185, 74, 72, 0.3);
   -webkit-border-radius: 4px;
